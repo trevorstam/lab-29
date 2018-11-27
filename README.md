@@ -2,41 +2,31 @@
 =================================================
 
 ## Project Name
+Lab 29: Component Composition
 
-### Author: Student/Group Name
+### Author: 
+Trevor Stam
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://codesandbox.io/s/18m7148vnl)
 
 ### Modules
-#### `modulename.js`
+#### `index.js`
 ##### Exported Values and Methods
+`class App`
+`render()`
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+#### `stuff.js`
+##### Exported Values and Methods
+`class Stuff`
+`render()`
 
-###### `bar(array) -> array`
-Usage Notes or examples
+#### `things.js`
+##### Exported Values and Methods
+`class Things`
+`render()`
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML](./assets/lab29_UML.jpg)
